@@ -1,0 +1,83 @@
+
+
+body,html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://www.teahub.io/photos/full/96-966323_minimalist-wallpapers-minimal-background.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+}
+
+#center {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 120%;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding-left: 70px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+
+#check {
+    margin-right: 30px;
+    margin-left: 100px;
+    float: left;
+}
+
+.risk, .noRisk {
+    color: aliceblue;
+    float: left;
+}
+
+.risk {
+    text-decoration: line-through;
+}
+
+.fa-trash{
+    color:rgb(9, 1, 98);
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-color: rgba(255, 255, 255, 0.886);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.768);
+    box-shadow: 0px 0px 2px rgb(121, 121, 121);
+    margin-inline-end: 200px;
+}
+
+
+
+#addTask {
+    width: 450px;
+    height: 35px;
+    border-color: rgba(255, 255, 255, 0.886);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.768);
+    box-shadow: 0px 0px 2px rgb(121, 121, 121);
+    font-style: italic;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: rgb(28, 28, 28);
+    padding-left: 8px;
+}
+
+#insert {
+    width: 35px;
+    height: 35px;
+    border-color: rgba(255, 255, 255, 0.886);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.768);
+    box-shadow: 0px 0px 2px rgb(121, 121, 121);
+    font-size: x-large;
+    text-align: center;
+}
